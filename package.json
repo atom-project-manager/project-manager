@@ -1,0 +1,30 @@
+{
+  "name": "project-manager",
+  "main": "./lib/index.js",
+  "contributors": [
+    "Daniel Brodin",
+    "Ryan Leckey <leckey.ryan@gmail.com>"
+  ],
+  "version": "2.0.0-pre",
+  "repository": "https://github.com/atom-project-manager/project-manager",
+  "license": "MIT",
+  "scripts": {},
+  "engines": {
+    "atom": ">=1.18.0 <2.0.0"
+  },
+  "consumedServices": {
+    "project": {
+      "versions": {
+        "1.0.0": "consumeProjects"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.4.1"
+  },
+  "devDependencies": {},
+  "package-deps": [
+    "project"
+  ],
+  "configSchema": {}
+}
