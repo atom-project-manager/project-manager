@@ -1,0 +1,11 @@
+v0.1:
+  ☐ Read `projects.cson` and provide project data to service
+  ☐ Add `project-manager:toggle-finder` to show a basic select list
+
+v0.2:
+  ☐ Add `project-manager:open` that shows OS folder picker and calls `ProjectManager::open`
+  ☐ Add `project-manager:activate` that shows OS folder picker and calls `ProjectManager::activate`
+  ☐ When opening or activating a project with those commands, try and read a `./project.cson` file and act accordingly
+
+v0.3:
+  ☐ Add auto-discovery of `project.cson` files in core.projectHome.
